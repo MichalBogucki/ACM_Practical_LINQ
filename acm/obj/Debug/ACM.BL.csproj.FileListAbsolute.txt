@@ -1,0 +1,14 @@
+C:\Users\User\Documents\Udemy\_PluralSight\ACM_Practical_LINQ\ACM\obj\Debug\ACM.BL.csprojAssemblyReference.cache
+C:\Users\User\Documents\Udemy\_PluralSight\ACM_Practical_LINQ\ACM\obj\Debug\ACM.BL.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Udemy\_PluralSight\ACM_Practical_LINQ\ACM\bin\Debug\ACM.exe.config
+C:\Users\User\Documents\Udemy\_PluralSight\ACM_Practical_LINQ\ACM\bin\Debug\ACM.exe
+C:\Users\User\Documents\Udemy\_PluralSight\ACM_Practical_LINQ\ACM\bin\Debug\ACM.pdb
+C:\Users\User\Documents\Udemy\_PluralSight\ACM_Practical_LINQ\ACM\obj\Debug\ACM.exe
+C:\Users\User\Documents\Udemy\_PluralSight\ACM_Practical_LINQ\ACM\obj\Debug\ACM.pdb
+C:\Users\Michał\Documents\_git\ACM_Practical_LINQ\ACM\bin\Debug\ACM.exe.config
+C:\Users\Michał\Documents\_git\ACM_Practical_LINQ\ACM\bin\Debug\ACM.exe
+C:\Users\Michał\Documents\_git\ACM_Practical_LINQ\ACM\bin\Debug\ACM.pdb
+C:\Users\Michał\Documents\_git\ACM_Practical_LINQ\ACM\obj\Debug\ACM.BL.csprojAssemblyReference.cache
+C:\Users\Michał\Documents\_git\ACM_Practical_LINQ\ACM\obj\Debug\ACM.BL.csproj.CoreCompileInputs.cache
+C:\Users\Michał\Documents\_git\ACM_Practical_LINQ\ACM\obj\Debug\ACM.exe
+C:\Users\Michał\Documents\_git\ACM_Practical_LINQ\ACM\obj\Debug\ACM.pdb

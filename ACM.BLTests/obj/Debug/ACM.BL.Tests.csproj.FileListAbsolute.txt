@@ -1,0 +1,12 @@
+C:\Users\User\Documents\Udemy\_PluralSight\ACM_Practical_LINQ\ACM.BLTests\obj\Debug\ACM.BL.Tests.csprojAssemblyReference.cache
+C:\Users\User\Documents\Udemy\_PluralSight\ACM_Practical_LINQ\ACM.BLTests\obj\Debug\ACM.BL.Tests.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Udemy\_PluralSight\ACM_Practical_LINQ\ACM.BLTests\bin\Debug\ACM.BLTests.dll
+C:\Users\User\Documents\Udemy\_PluralSight\ACM_Practical_LINQ\ACM.BLTests\bin\Debug\ACM.BLTests.pdb
+C:\Users\User\Documents\Udemy\_PluralSight\ACM_Practical_LINQ\ACM.BLTests\bin\Debug\ACM.exe
+C:\Users\User\Documents\Udemy\_PluralSight\ACM_Practical_LINQ\ACM.BLTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\User\Documents\Udemy\_PluralSight\ACM_Practical_LINQ\ACM.BLTests\bin\Debug\ACM.pdb
+C:\Users\User\Documents\Udemy\_PluralSight\ACM_Practical_LINQ\ACM.BLTests\bin\Debug\ACM.exe.config
+C:\Users\User\Documents\Udemy\_PluralSight\ACM_Practical_LINQ\ACM.BLTests\bin\Debug\pl\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Users\User\Documents\Udemy\_PluralSight\ACM_Practical_LINQ\ACM.BLTests\obj\Debug\ACM.BL.Tests.csproj.CopyComplete
+C:\Users\User\Documents\Udemy\_PluralSight\ACM_Practical_LINQ\ACM.BLTests\obj\Debug\ACM.BLTests.dll
+C:\Users\User\Documents\Udemy\_PluralSight\ACM_Practical_LINQ\ACM.BLTests\obj\Debug\ACM.BLTests.pdb
