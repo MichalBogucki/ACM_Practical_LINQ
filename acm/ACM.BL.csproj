@@ -44,6 +44,10 @@
   <ItemGroup>
     <Compile Include="CustomerRepository.cs" />
     <Compile Include="Customer.cs" />
+    <Compile Include="CustomerType.cs" />
+    <Compile Include="CustomerTypeRepository.cs" />
+    <Compile Include="Invoice.cs" />
+    <Compile Include="InvoiceRepository.cs" />
     <Compile Include="Properties\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

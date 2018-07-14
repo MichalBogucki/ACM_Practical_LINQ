@@ -1,0 +1,8 @@
+C:\Users\Michał\Documents\_git\Pluralsight\ACM_Practical_LINQ\.vs\ACM_Practical_LINQ\lut\0\b\ACM.LibraryTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Michał\Documents\_git\Pluralsight\ACM_Practical_LINQ\.vs\ACM_Practical_LINQ\lut\0\b\ACM.LibraryTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Michał\Documents\_git\Pluralsight\ACM_Practical_LINQ\.vs\ACM_Practical_LINQ\lut\0\b\ACM.LibraryTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Michał\Documents\_git\Pluralsight\ACM_Practical_LINQ\.vs\ACM_Practical_LINQ\lut\0\b\ACM.LibraryTests\bin\Debug\ACM.LibraryTests.dll
+C:\Users\Michał\Documents\_git\Pluralsight\ACM_Practical_LINQ\.vs\ACM_Practical_LINQ\lut\0\i\ACM.LibraryTests\Debug\ACM.LibraryTests.csprojAssemblyReference.cache
+C:\Users\Michał\Documents\_git\Pluralsight\ACM_Practical_LINQ\.vs\ACM_Practical_LINQ\lut\0\i\ACM.LibraryTests\Debug\ACM.LibraryTests.csproj.CoreCompileInputs.cache
+C:\Users\Michał\Documents\_git\Pluralsight\ACM_Practical_LINQ\.vs\ACM_Practical_LINQ\lut\0\i\ACM.LibraryTests\Debug\ACM.LibraryTests.csproj.CopyComplete
+C:\Users\Michał\Documents\_git\Pluralsight\ACM_Practical_LINQ\.vs\ACM_Practical_LINQ\lut\0\i\ACM.LibraryTests\Debug\ACM.LibraryTests.dll

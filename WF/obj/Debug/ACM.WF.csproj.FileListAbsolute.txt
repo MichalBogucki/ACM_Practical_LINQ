@@ -1,0 +1,14 @@
+C:\Users\Michał\Documents\_git\Pluralsight\ACM_Practical_LINQ\WF\bin\Debug\WF.exe.config
+C:\Users\Michał\Documents\_git\Pluralsight\ACM_Practical_LINQ\WF\bin\Debug\WF.exe
+C:\Users\Michał\Documents\_git\Pluralsight\ACM_Practical_LINQ\WF\bin\Debug\WF.pdb
+C:\Users\Michał\Documents\_git\Pluralsight\ACM_Practical_LINQ\WF\bin\Debug\ACM.exe
+C:\Users\Michał\Documents\_git\Pluralsight\ACM_Practical_LINQ\WF\bin\Debug\ACM.pdb
+C:\Users\Michał\Documents\_git\Pluralsight\ACM_Practical_LINQ\WF\bin\Debug\ACM.exe.config
+C:\Users\Michał\Documents\_git\Pluralsight\ACM_Practical_LINQ\WF\obj\Debug\ACM.WF.csprojAssemblyReference.cache
+C:\Users\Michał\Documents\_git\Pluralsight\ACM_Practical_LINQ\WF\obj\Debug\WF.CustomerWin.resources
+C:\Users\Michał\Documents\_git\Pluralsight\ACM_Practical_LINQ\WF\obj\Debug\WF.Properties.Resources.resources
+C:\Users\Michał\Documents\_git\Pluralsight\ACM_Practical_LINQ\WF\obj\Debug\ACM.WF.csproj.GenerateResource.cache
+C:\Users\Michał\Documents\_git\Pluralsight\ACM_Practical_LINQ\WF\obj\Debug\ACM.WF.csproj.CoreCompileInputs.cache
+C:\Users\Michał\Documents\_git\Pluralsight\ACM_Practical_LINQ\WF\obj\Debug\ACM.WF.csproj.CopyComplete
+C:\Users\Michał\Documents\_git\Pluralsight\ACM_Practical_LINQ\WF\obj\Debug\WF.exe
+C:\Users\Michał\Documents\_git\Pluralsight\ACM_Practical_LINQ\WF\obj\Debug\WF.pdb

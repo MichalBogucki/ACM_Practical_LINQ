@@ -1,0 +1,6 @@
+C:\Users\Michał\Documents\_git\Pluralsight\ACM_Practical_LINQ\.vs\ACM_Practical_LINQ\lut\0\b\ACM.Library\bin\Debug\ACM.Library.exe.config
+C:\Users\Michał\Documents\_git\Pluralsight\ACM_Practical_LINQ\.vs\ACM_Practical_LINQ\lut\0\b\ACM.Library\bin\Debug\ACM.Library.exe
+C:\Users\Michał\Documents\_git\Pluralsight\ACM_Practical_LINQ\.vs\ACM_Practical_LINQ\lut\0\i\ACM.Library\Debug\ACM.Library.csproj.CoreCompileInputs.cache
+C:\Users\Michał\Documents\_git\Pluralsight\ACM_Practical_LINQ\.vs\ACM_Practical_LINQ\lut\0\i\ACM.Library\Debug\ACM.Library.csproj.CopyComplete
+C:\Users\Michał\Documents\_git\Pluralsight\ACM_Practical_LINQ\.vs\ACM_Practical_LINQ\lut\0\i\ACM.Library\Debug\ACM.Library.exe
+C:\Users\Michał\Documents\_git\Pluralsight\ACM_Practical_LINQ\.vs\ACM_Practical_LINQ\lut\0\i\ACM.Library\Debug\ACM.Library.csprojAssemblyReference.cache
