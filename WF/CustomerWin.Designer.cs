@@ -28,19 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.CustomerComboBox = new System.Windows.Forms.ComboBox();
             this.CustomerGridView = new System.Windows.Forms.DataGridView();
             this.GetCustomersButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.CustomerGridView)).BeginInit();
             this.SuspendLayout();
             // 
-            // comboBox1
+            // CustomerComboBox
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(12, 28);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(240, 21);
-            this.comboBox1.TabIndex = 0;
+            this.CustomerComboBox.FormattingEnabled = true;
+            this.CustomerComboBox.Location = new System.Drawing.Point(12, 28);
+            this.CustomerComboBox.Name = "CustomerComboBox";
+            this.CustomerComboBox.Size = new System.Drawing.Size(240, 21);
+            this.CustomerComboBox.TabIndex = 0;
+            this.CustomerComboBox.SelectedIndexChanged += new System.EventHandler(this.CustomerComboBox_SelectedIndexChanged);
             // 
             // CustomerGridView
             // 
@@ -67,9 +68,10 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.GetCustomersButton);
             this.Controls.Add(this.CustomerGridView);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.CustomerComboBox);
             this.Name = "CustomerWin";
             this.Text = "CustomerWin";
+            this.Load += new System.EventHandler(this.CustomerWin_Load);
             ((System.ComponentModel.ISupportInitialize)(this.CustomerGridView)).EndInit();
             this.ResumeLayout(false);
 
@@ -77,7 +79,7 @@
 
         #endregion
 
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox CustomerComboBox;
         private System.Windows.Forms.DataGridView CustomerGridView;
         private System.Windows.Forms.Button GetCustomersButton;
     }

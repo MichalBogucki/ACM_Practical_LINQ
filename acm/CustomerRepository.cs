@@ -54,6 +54,21 @@ namespace ACM.BL
             return query;
         }
 
+        public dynamic GetNamesAndId(List<Customer> customerList)
+        {
+            var query = customerList.OrderBy(c => c.LastName)
+                .ThenBy(c => c.FirstName)
+                .Select(c => new
+                {
+                    Name = c.LastName + ", " + c.FirstName,
+                    c.CustomerID
+                });
+
+            return query.ToList();
+        }
+
+
+
         public dynamic GetNamesAndType(List<Customer> customerList,
                                         List<CustomerType> customerTypeList)
         {
@@ -78,6 +93,30 @@ namespace ACM.BL
                         .SelectMany(c => c.InvoiceList
                                     .Where(i => (i.IsPaid ?? false) == false),
                                     (c,i) => c).Distinct();
+            return query;
+        }
+
+        public IEnumerable<KeyValuePair<string,decimal>> GetinvoiceTotalByCustomerType(List<Customer> customerList, List<CustomerType> customerTypeList)
+        {
+            var customerTypeQuery = customerList.Join(customerTypeList,
+                                        c => c.CustomerTypeId,
+                                        ct => ct.CustomerTypeId,
+                                        (c, ct) => new
+                                        {
+                                            CustomerInstance = c,
+                                            CustomerTypeName = ct.TypeName
+                                        });
+
+            var query = customerTypeQuery.GroupBy(c => c.CustomerTypeName,
+                                                  c => c.CustomerInstance.InvoiceList.Sum(inv => inv.TotalAmount),
+                                                  (groupKey, invTotal) => new KeyValuePair<string, decimal>(groupKey, invTotal.Sum())
+                                                  );
+
+            foreach (var item in query)
+            {
+                Console.WriteLine($"{item.Key}: {item.Value}");
+            }
+
             return query;
         }
 
@@ -112,7 +151,7 @@ namespace ACM.BL
                     FirstName = "Samwise",
                     LastName = "Gamgee",
                     EmailAddress = "sg@hob.me",
-                    CustomerTypeId = 1,
+                    CustomerTypeId = 4,
                     InvoiceList=invoiceRepository.Retrive(3),
                 },
                 new Customer()
