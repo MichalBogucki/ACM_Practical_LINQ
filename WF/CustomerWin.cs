@@ -21,6 +21,15 @@ namespace WF
             InitializeComponent();
         }
 
+        private void CustomerWin_Load(object sender, EventArgs e)
+        {
+            var customerList = customerRepository.Retrive();
+
+            CustomerComboBox.DisplayMember = "Name";
+            CustomerComboBox.ValueMember = "CustomerId";
+            CustomerComboBox.DataSource = customerRepository.GetNamesAndId(customerList);
+        }
+
         private void GetCustomersButton_Click(object sender, EventArgs e)
         {
             //CustomerGridView.DataSource = customerRepository.Retrive();
@@ -38,6 +47,23 @@ namespace WF
 
             CustomerGridView.DataSource = customerRepository.GetNamesAndType(customerList,
                                             customerTypeList);
+        }
+
+        private void CustomerComboBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (CustomerComboBox.SelectedValue != null)
+            {
+                int customerId;
+                if (int.TryParse(CustomerComboBox.SelectedValue.ToString(), out customerId))
+                {
+                    var customerList = customerRepository.Retrive();
+
+                    CustomerGridView.DataSource = new List<Customer>()
+                    {
+                        customerRepository.Find(customerList, customerId)
+                    };
+                }
+            }
         }
     }
 }
