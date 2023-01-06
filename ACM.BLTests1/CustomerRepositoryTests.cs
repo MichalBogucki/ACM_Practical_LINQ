@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ACM.BL.BLTest
+namespace ACM.BL.Tests
 {
     [TestClass()]
     public class CustomerRepositoryTests
@@ -129,23 +129,6 @@ namespace ACM.BL.BLTest
 
             // Assert
             Assert.IsNotNull(query);
-        }
-
-        [TestMethod()]
-        public void GetinvoiceTotalByCustomerTypeTest()
-        {
-            // Arrange
-            CustomerRepository repository = new CustomerRepository();
-            var customerList = repository.Retrive();
-
-            CustomerTypeRepository typeRepository = new CustomerTypeRepository();
-            var customerTypeList = typeRepository.Retrive();
-
-
-            // Act
-            var result = repository.GetinvoiceTotalByCustomerType(customerList,customerTypeList);
-
-            //NOT REALLY A TEST
         }
 
         [TestMethod()]
